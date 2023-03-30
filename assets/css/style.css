@@ -34,9 +34,17 @@ a {
 }
 
 /* =========================Header ======================*/
+.fixed {
+    background-color: #def6f5;
+
+    top: 0;
+    z-index: 2;
+    position: sticky;
+}
 .header .navbar {
+    padding: 12px 0;
     display: flex;
-    margin-top: 52px;
+    margin-top: 40px;
     align-items: center;
 }
 .navbar .menu {
